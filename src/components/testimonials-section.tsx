@@ -3,25 +3,25 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 const testimonials = [
   {
-    name: "Елена Родригес",
-    role: "Директор по нейронауке, Quantum Dynamics",
-    avatar: "/professional-woman-scientist.png",
-    content:
-      "SynapseAI изменил наш подход к нейрореабилитации. Результаты пациентов улучшились на 340% после внедрения.",
-  },
-  {
-    name: "Маркус Уильямс",
-    role: "Руководитель исследований, Stellar Analytics",
+    name: "Алексей Петров",
+    role: "Начальник цеха, ЗАО «МеталлСтрой»",
     avatar: "/cybersecurity-expert-man.jpg",
     content:
-      "Точность и протоколы безопасности не имеют аналогов. Мы значительно ускорили клинические испытания с платформой SynapseAI.",
+      "Перешли на оборудование ПроСварка два года назад — простои сократились на 40%. Аппараты работают в три смены без нареканий.",
   },
   {
-    name: "Анна Ковальски",
-    role: "Вице-президент по разработке, Nova Industries",
+    name: "Ирина Волкова",
+    role: "Владелица автосервиса «АвтоМастер»",
+    avatar: "/professional-woman-scientist.png",
+    content:
+      "Для кузовного ремонта — идеально. TIG-аппарат варит тонкий металл как по маслу, а сервис реагирует за день.",
+  },
+  {
+    name: "Дмитрий Ковалёв",
+    role: "Прораб, строительная компания «Основа»",
     avatar: "/asian-woman-tech-developer.jpg",
     content:
-      "Интеграция прошла безупречно. Адаптивные алгоритмы понимают намерения пользователя лучше любой системы, что мы тестировали.",
+      "На стройке важна надёжность. За сезон ни одной поломки, аппараты лёгкие и удобные для работы на высоте.",
   },
 ]
 
@@ -30,9 +30,9 @@ export function TestimonialsSection() {
     <section className="py-24 px-6 bg-card">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Нам доверяют лидеры</h2>
+          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Нам доверяют профессионалы</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Что говорят лидеры индустрии о нашей революционной технологии
+            Что говорят наши клиенты о сварочном оборудовании ПроСварка
           </p>
         </div>
 
